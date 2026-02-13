@@ -91,8 +91,8 @@ body {
     bottom: 20px;
     right: 20px;
     margin-top: 0;
-    opacity: 0.2;
-    transition: opacity 0.3s;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
     transform: scale(0.7);
     z-index: 2;
     animation: subtle-hint 2s infinite alternate;
@@ -100,8 +100,9 @@ body {
 }
 
 .secret-answer .cute-btn {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 7px 15px;
 }
 
 .secret-answer:hover {
